@@ -11,3 +11,8 @@ zr         = fold open
 zm         = fold close
 ctrl  + w  = Go back to the previous directory(in unite file)
 
+<Substitution>
+r                 = Character Range
+:s/"*"/"*"/g      = Row Range
+:'<,'>s/"*"/"*"/g = Specified Range
+:%s/"*"/"*"/g     = Entire File
