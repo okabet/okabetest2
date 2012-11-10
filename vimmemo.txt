@@ -1,0 +1,13 @@
+space + tn = new tabma
+gt         = tab switching
+space + fb = unite start-up
+unite grep:%::"search word"
+space + ev = vimrc open
+vae        = all select
+diq        = next ' delete
+ctrl  + ]  = tag junp
+ctrl  + t  = back jump
+zr         = fold open
+zm         = fold close
+ctrl  + w  = Go back to the previous directory(in unite file)
+
