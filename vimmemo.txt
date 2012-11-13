@@ -1,10 +1,14 @@
 space + tn = new tabma
 gt         = tab switching
+
 space + fb = unite start-up
-unite grep:%::"search word"
+unite grep:%::"search word" = Current file only
+unite grep:*::"search word" = All files below this 
 space + ev = vimrc open
 vae        = all select
 diq        = next ' delete
+fpi        = plug-in install
+fpu        = plug-in update
 ctrl  + ]  = tag junp
 ctrl  + t  = back jump
 zr         = fold open
@@ -16,3 +20,14 @@ r                 = Character Range
 :s/"*"/"*"/g      = Row Range
 :'<,'>s/"*"/"*"/g = Specified Range
 :%s/"*"/"*"/g     = Entire File
+
+<File selection screen>
+space + vf        = File selection screen is displayed to the left
+ファイルにカーソルを当てた状態でenter押下 = Run
+e                                         = 右側に表示
+
+
+<copy past>
+Alt + d           = Selected range or Row range copy
+shift + v ⇒ Range specification = 
+vat               = タブの範囲を全てコピー
